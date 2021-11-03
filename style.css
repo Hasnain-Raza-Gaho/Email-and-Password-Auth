@@ -1,0 +1,29 @@
+#signup{
+    width: 250px;
+    border: 2px solid rgb(139, 139, 139);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+#signup *{
+    border: 1px solid rgb(139, 139, 139);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+::-webkit-input-placeholder{
+    text-transform: uppercase;
+}
+button{
+    text-align: center;
+}
